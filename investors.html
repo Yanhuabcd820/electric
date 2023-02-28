@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>電子商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:url" content="https://web.elifemall.com.tw/">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="images/logo.jpg" />
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.svg">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/flymain2.js"></script>
+</head>
+<body>
+	<a href="#Top" class="GoTop">
+		<span class="GoToBar GoToBar1"></span>
+		<span class="GoToBar GoToBar2"></span>
+	</a>
+	<header id="Top">
+		<nav class="nav">
+			<div class="nav-inner">
+				<div class="logo-bar"></div>
+				<div id="menu" class="">
+					<span class="bar bar1"></span>
+					<span class="bar bar3"></span>
+					<p class="menu-word">MENU</p>
+				</div>
+				
+
+
+
+				<div class="logo" onclick="location.href='index.html';" style="cursor:pointer;" >
+					<img src="images/logo.svg" alt="全國電子logo">
+				</div>
+				<ul class="navigation" id="navigation">
+			
+					<li><a href="store.html">門市資訊</a></li>
+					<li class="secend-nav"><a href="javascript:;">抽獎專區</a>
+						<ul class="navigation-inner lucky">
+							<li><a href="luckydraw.html">全部抽獎活動</a></li>
+							<li><a href="luckydraw2.html">進行中的抽獎</a></li>
+							<li><a href="luckydraw3.html">中獎名單公佈</a></li>
+							<li><a href="luckydraw4.html">已截止的抽獎</a></li><!-- 
+							<li><a href="luckydraw5.html">已結束的抽獎</a></li> -->
+						</ul>
+					</li>
+
+					
+					<li class="secend-nav"><a href="javascript:;">活動訊息</a>
+						<ul class="navigation-inner">
+							<li class="select"><a href="event.html">全部活動</a></li>
+							<li><a href="event-2.html">銀行活動</a></li>
+							<li><a href="event-3.html">門市活動</a></li>
+							<li><a href="event-4.html">品牌活動</a></li>
+						</ul>
+					</li>
+					<li><a href="catalog.html">門市型錄</a></li>
+					<li class="secend-nav"><a href="javascript:;">客戶服務</a>
+						<ul class="navigation-inner">
+							<li><a href="member-content.html">會員申請/卡號查詢</a></li>
+							<li><a href="member-coupon.html">商品禮券/提貨券查詢</a></li>
+							<li><a href="member-maintenance.html">維修查詢/延保申請</a></li>
+							<li><a href="member-service.html">客服中心</a></li>
+							<li><a href="announce.html">公告專區</a></li>
+						</ul>
+					</li>
+
+
+
+					<li><a href="https://www.dcity.com.tw/?utm_source=elifemall&utm_medium=destop" target="_blank">線上購物</a></li>
+					<li class="nav-search">
+						<div class="nav-search-icon" onclick="location.href='search.html';" style="cursor:pointer;" ></div>
+						<input type="text" class="nav-search-input" placeholder="search..." onclick="location.href='search.html';" style="cursor:pointer;" >
+					</li>
+				</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+	<content>
+		<div class="blank"></div><div class="blank2"></div>
+
+
+		<div class="crumbs-wrap">
+			<h3 class="crumbs">關於全國 - 投資人關係</h3>
+		</div>
+
+		<div class="content-wrap">
+			<div class="btn-wrap draw-btn investors">
+				<button type="button" class="select" onclick="location.href='investors.html';" style="cursor:pointer;">公司概況</button>
+				<button type="button" onclick="location.href='investors-financial.html';" style="cursor:pointer;">財務業務資訊</button>
+				<button type="button" onclick="location.href='investors-shareholder-info.html';" style="cursor:pointer;">股東會資訊</button>
+				<button type="button" onclick="location.href='investors-shareholder-service.html';" style="cursor:pointer;">股東服務</button>
+				<button type="button" onclick="location.href='investors-manage.html';" style="cursor:pointer;">公司治理</button>
+				<button type="button" onclick="location.href='investors-responsibility.html';" style="cursor:pointer;">社會責任暨利害關係人</button>
+
+			</div>
+
+
+			<div class="btn-wrap draw-select investors">
+				<select onchange="top.location=this.value;">
+					<option value="investors.html" selected>公司概況</option>
+					<option value="investors-financial.html">財務業務資訊</option>
+					<option value="investors-shareholder-info.html">股東會資訊</option>
+					<option value="investors-shareholder-service.html">股東服務</option>
+					<option value="investors-manage.html">公司治理</option>
+					<option value="investors-responsibility.html">社會責任暨利害關係人</option>
+				</select>
+			</div>
+
+			<div class="detail-wrap">
+
+				<h3 class="crumbs catalog inner">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">基本資料</span>
+					</div>
+				</h3>	
+
+
+				<div class="investor-wrap">
+					<div class="investor">
+					 	<div class="catch">股票代號</div>
+					 	<div class="content">6281</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">公司名稱</div>
+					 	<div class="content">全國電子股份有限公司</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">總機電話</div>
+					 	<div class="content">(02)2298-9922</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">地址</div>
+					 	<div class="content">新北市五股區五工六路55號</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">董事長</div>
+					 	<div class="content">林琦敏</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">總經理</div>
+					 	<div class="content">林政勳</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">發言人</div>
+					 	<div class="content">陳<span class="bi">碧</span>滋、林奕君</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">代理發言人</div>
+					 	<div class="content">吳鴻淵</div>
+					</div>	
+
+					
+
+					<div class="investor">
+					 	<div class="catch">公司成立日期</div>
+					 	<div class="content">75/01/11</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">營利事業統一編號</div>
+					 	<div class="content">22006252</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">實收資本額</div>
+					 	<div class="content">991,729,450元</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">上市日期</div>
+					 	<div class="content">94/12/08</div>
+					</div>	
+
+					
+
+					<div class="investor">
+					 	<div class="catch">股票過戶機構</div>
+					 	<div class="content">凱基證券股份有限公司</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">股票過戶機構電話</div>
+					 	<div class="content">(02)2389-2999</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">過戶地址</div>
+					 	<div class="content">臺北市重慶南路1段2號5樓</div>
+					</div>	
+
+					<div class="investor wide">
+					 	<div class="catch">主要經營業務</div>
+					 	<div class="content">
+						 	1.電視機等家用電器通訊器材燈具及其有關器材零組件之買賣業務<br>
+							2.電腦及其週邊自動化事務機器及其器材零組件之裝配及買賣業務<br>
+							3.前各項產品之維修及保養服務業務及電器安裝業務
+						</div>
+					</div>	
+
+					
+
+
+				</div>
+
+			</div>
+			<div class="blank"></div><div class="blank2"></div>
+			<div class="detail-wrap">
+
+				<h3 class="crumbs catalog inner">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">營業範圍</span>
+					</div>
+				</h3>	
+
+
+				<div class="investor-wrap">
+					<div class="investor">
+					 	<div class="catch">E601020</div>
+					 	<div class="content">電器安裝業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F102020</div>
+					 	<div class="content">食用油脂批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F102030</div>
+					 	<div class="content">菸酒批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F102170</div>
+					 	<div class="content">食品什貨批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F104110</div>
+					 	<div class="content">布疋、衣著、鞋、帽、傘、服飾品批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F105050</div>
+					 	<div class="content">家具、寢具、廚房器具、裝設品批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">E1601020</div>
+					 	<div class="content">五金批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F108040</div>
+					 	<div class="content">化粧品批發業</div>
+					</div>	
+
+					
+
+					<div class="investor">
+					 	<div class="catch">F109070</div>
+					 	<div class="content">文教、樂器、育樂用品批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F110010</div>
+					 	<div class="content">鐘錶批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F110020</div>
+					 	<div class="content">眼鏡批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F111090</div>
+					 	<div class="content">建材批發業</div>
+					</div>	
+
+					
+
+					<div class="investor">
+					 	<div class="catch">F113010</div>
+					 	<div class="content">機械批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F113020</div>
+					 	<div class="content">電器批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F113030</div>
+					 	<div class="content">精密儀器批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F113050</div>
+					 	<div class="content">電腦及事務性機器設備批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F113070</div>
+					 	<div class="content">電信器材批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F116010</div>
+					 	<div class="content">照相器材批發業</div>
+					</div>	
+
+					
+
+
+					<div class="investor">
+					 	<div class="catch">F119010</div>
+					 	<div class="content">電子材料批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F203010</div>
+					 	<div class="content">食品什貨、飲料零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F203020</div>
+					 	<div class="content">菸酒零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F204110</div>
+					 	<div class="content">布疋、衣著、鞋、帽、傘、服飾品零售業</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">F205040</div>
+					 	<div class="content">電子材料批發業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F203010</div>
+					 	<div class="content">家具、寢具、廚房器具、裝設品零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F206010</div>
+					 	<div class="content">五金零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F208040</div>
+					 	<div class="content">化粧品零售業</div>
+					</div>	
+
+					
+
+					<div class="investor">
+					 	<div class="catch">F209060</div>
+					 	<div class="content">文教、樂器、育樂用品零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F203010</div>
+					 	<div class="content">家具、寢具、廚房器具、裝設品零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F210010</div>
+					 	<div class="content">鐘錶零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F210020</div>
+					 	<div class="content">眼鏡零售業</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">F211010</div>
+					 	<div class="content">建材零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F213010</div>
+					 	<div class="content">電器零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F213030</div>
+					 	<div class="content">電腦及事務性機器設備零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F213040</div>
+					 	<div class="content">精密儀器零售業</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">F213060</div>
+					 	<div class="content">電信器材零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F213080</div>
+					 	<div class="content">機械器具零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F216010</div>
+					 	<div class="content">照相器材零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F219010</div>
+					 	<div class="content">電子材料零售業</div>
+					</div>	
+					<div class="investor">
+					 	<div class="catch">F301020</div>
+					 	<div class="content">超級市場業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F399010</div>
+					 	<div class="content">便利商店業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">G801010</div>
+					 	<div class="content">倉儲業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">I103060</div>
+					 	<div class="content">管理顧問業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">I401010</div>
+					 	<div class="content">一般廣告服務業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">IZ06010</div>
+					 	<div class="content">理貨包裝業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">J303010</div>
+					 	<div class="content">雜誌(期刊)出版業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">J304010</div>
+					 	<div class="content">圖書出版業</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">J305010</div>
+					 	<div class="content">有聲出版業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">J701090</div>
+					 	<div class="content">錄影節目帶播映業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">JD01010</div>
+					 	<div class="content">工商徵信服務業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">JZ99030</div>
+					 	<div class="content">攝影業</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">F208031</div>
+					 	<div class="content">醫療器材零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">F399040</div>
+					 	<div class="content">無店面零售業</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">ZZ99999</div>
+					 	<div class="content">除許可業務外，得經營法令非禁止或限制之業務</div>
+					</div>	
+
+				</div>
+
+
+			</div>
+
+			<div class="blank"></div><div class="blank2"></div>
+
+			<div class="detail-wrap">
+
+				<h3 class="crumbs catalog">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">公司組織</span>
+					</div>
+				</h3>	
+				<div class="investors-organize">
+					<img src="images/investors-organize.jpg" alt="">
+					
+				</div>
+			</div>
+
+
+			<div class="blank"></div><div class="blank2"></div>
+
+			<div class="detail-wrap">
+
+				<h3 class="crumbs catalog inner">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">經營團隊</span>
+					</div>
+				</h3>	
+				<div class="investor-wrap">
+
+					<div class="investor">
+					 	<div class="catch">董事長</div>
+					 	<div class="content">林琦敏 
+					 		<div class="">全國電子(股)公司董事長</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">總經理</div>
+					 	<div class="content">林政勳 
+					 		<div class="">全國電子(股)公司董事長室特助</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">發言人</div>
+					 	<div class="content">陳<span class="bi">碧</span>滋 
+					 		<div class="">台灣大學會計系碩士</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">財務暨會計處 協理</div>
+					 	<div class="content">陳<span class="bi">碧</span>滋
+					 		<div class="">台灣大學會計系碩士</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">資訊管理處 副總經理</div>
+					 	<div class="content">吳俊科
+					 		<div class="">中央大學化工系</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">後勤管理處兼人力資源部 協理</div>
+					 	<div class="content">廖素慧 
+					 		<div class="">交通大學管理科學碩士</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">家電商品處 協理</div>
+					 	<div class="content">魏文清 
+					 		<div class="">中央大學企管系</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">數位商品處 主任</div>
+					 	<div class="content">林憶雯(代)
+					 		<div class="">銘傳大學財務金融系</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">行銷處 協理</div>
+					 	<div class="content">林奕君
+					 		<div class="">美國波士頓大學企管碩士</div>
+					 	</div>
+					</div>	
+
+
+					<div class="investor">
+					 	<div class="catch">北區營業處 副總經理</div>
+					 	<div class="content">謝明佑 
+					 		<div class="">台灣大學國際企管碩士</div>
+					 	</div>
+					</div>	
+
+					<div class="investor">
+					 	<div class="catch">南區營業處 副總經理</div>
+					 	<div class="content">林温祥 
+					 		<div class="">遠東技術學院企管科</div>
+					 	</div>
+					</div>	
+
+
+						
+
+				</div>
+					
+			</div>
+
+
+		</div>
+
+
+
+	</content>
+
+	<div class="bottom-nav-wrap">
+		<div class="bottom-option-outter bottom-option-outter-A">
+			<div class="bottom-nav bottom-nav-A">
+				<p>關於全國</p>
+				<a href="management.html">經營理念</a>
+				<a href="history.html">歷史沿革</a>
+				<a href="investors.html">投資人關係</a>
+				<a href="news.html">新聞稿</a>
+				<a href="csr.html">CSR</a>
+			</div>
+			<div class="bottom-nav bottom-nav-B">
+				<p>加入全國</p>
+				<a href="https://www.104.com.tw/company/a3xycps" target="_blank">人才招募</a>
+				<a href="supplier.html">供應商夥伴大募集</a>
+				<a href="air-conditioner.html">冷氣安裝協力廠商大募集</a>
+			</div>
+		</div>
+
+		<div class="bottom-option-outter bottom-option-outter-B">
+<!-- 			
+			<div class="newsletter-frame">
+				<p class="newsletter">我想訂閱電子型錄</p>
+				<input type="mail" placeholder="請輸入email" class="newsletter-input">
+				<div class="newsletter-btn">
+					<a href="#">訂閱</a> |
+					<a href="#">退訂</a>
+				</div>
+			</div> -->
+			<img src="images/icon-fb.svg" alt="" onclick="window.open('https://www.facebook.com/elifemall.com.tw/');" style="cursor:pointer;">
+			<img src="images/icon-line.svg" alt="" onclick="window.open('https://page.line.me/elifemall');" style="cursor:pointer;">
+			<img src="images/icon-youtube.svg" alt="" onclick="window.open('https://www.youtube.com/channel/UC9X5Ddy6WZLSY65ywEodr-g');" style="cursor:pointer;">
+		</div>
+
+
+
+	</div>
+
+
+
+
+	<footer>
+		<div class="footer-word">
+			<span><b>全國電子股份有限公司</b></span>
+			<span>地址：新北市248五股區五工六路55號</span>
+			<span>TEL：02-2298-9922</span>
+			<span>免費客服專線：0800-021921 </span>
+			<span class="all-line">Copyright © elifemall.com.tw All rights reserved.</span>
+
+			<div class="footer-frame all-line">
+				<a href="Anti-Fraud.html">防詐騙中心</a>
+				<!-- <div class="footer-deco"></div> -->
+			</div>
+			      
+		</div>
+		<div class="footer-deco"></div>
+
+
+
+	</footer>
+
+
+
+<script src="js/normal.js"></script>
+
+
+
+</body>
+</html>

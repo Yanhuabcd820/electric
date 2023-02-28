@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block; } body {line-height: 1; } ol, ul {list-style: none; } blockquote, q {quotes: none; } blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none; } table {border-collapse: collapse; border-spacing: 0; }
+h1, h2, h3, h4, h5, h6, a, p, div,textarea{font-family: 微軟正黑體, sans-serif;color: #333;}
+
+.bi{
+	font-family: '微軟雅黑體', sans-serif;
+	font-family: Yu Gothic, MS Gothic, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+b{
+	font-weight: bold;
+}
+
+input[type=button],
+input[type=submit]{
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;
+}
+input,
+input[type=button],
+input[type=submit]{
+	color: #333;
+}
+img{
+	vertical-align: middle;
+}
+
+
+button,
+input[type=button],
+input[type=submit]{
+	border: 0px;
+	background-color: transparent;
+
+}
+
+
+
+button,
+input[type=button],
+input[type=submit],
+a.member-apply{
+	width: calc( 50% - 10px );
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 7px;
+	color: #D7003F;
+	border: 1px solid #D7003F;
+	transition: .5s;
+	margin: 0px 5px 8px 5px;
+}
+
+.btn-wrap > button.otherDM{
+	width: calc( 33.33% - 10px );
+	color: #575757;
+	border: 1px solid #575757;
+	margin: 0px 5px 8px 5px;
+}
+@media screen and (min-width: 414px){
+	.btn-wrap > button{
+		width: calc( 25% - 40px );
+		margin: 0px 10px 68px 10px;
+	}
+	.btn-wrap.draw-btn > button{
+			margin: 0px 10px 18px 10px;
+	}
+}
+@media screen and (min-width: 768px){
+	
+	.btn-wrap > button.otherDM{
+		width: calc( 16.6% - 20px );
+		margin: 0px 10px 68px 10px;
+	}
+}
+
+.btn-wrap > button.otherDM-number{
+	width: calc( 20% - 10px );
+	margin: 0px 5px 8px 5px;
+	justify-content: center;
+}
+
+
+.investors > button{
+	margin: 0;
+	width: calc( ( 100% - 100px ) / 6);
+	margin-right: 8px;
+}
+
+.investors > button:first-child{
+	margin-left: 0px;
+}
+
+
+.investors > button:last-child{
+	margin-right: 0px;
+}
+
+
+.btn-wrap.member-warranty > button{
+	width: calc( 50% - 20px );
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+
+
+button.result{
+	color: #05407D;
+	border: 1px solid #05407D;
+}
+
+button.end{
+	color: #575757;
+	border: 1px solid #FABB2E;
+}
+
+button.otherDM{
+	color: #575757;
+	border: 1px solid #575757;
+}
+
+button.lucky.end{
+	color: #333;
+	border: 1px solid  #FABB2E;
+	background-color:  #FABB2E;
+	margin-top: 20px;
+}
+
+
+
+.btn-wrap > button:hover,
+.btn-wrap > button.select{
+	color: #fff;
+	background-color: #D7003F;
+}
+
+.btn-wrap > button.result:hover,
+.btn-wrap > button.result.select{
+	background-color: #05407D;
+}
+
+.btn-wrap > button.end:hover,
+.btn-wrap > button.end.select{
+	color: #575757;
+	background-color: #FABB2E;
+}
+
+.btn-wrap > button.otherDM:hover,
+.btn-wrap > button.otherDM.select{
+	background-color: #575757;
+}
+
+button.proclamation-btn{
+	border-radius: 0px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	width: 120px;
+	display: block;
+}
+
+
+
+
+
+
+.submit-wrap{
+	width: 100%;
+}
+.submit-inner{
+	text-align: center;
+
+}
+.submit-inner.result > button{
+	background-color: #05407D;
+	border: 1px solid #05407D;
+
+}
+.submit-inner.finish > button{
+	background-color: #575757;
+	border: 1px solid #575757;
+
+}
+.submit-inner.end > button{
+	color: #575757;
+	background-color: #FABB2E;
+	border: 1px solid #FABB2E;
+
+}
+button[type=submit],
+input[type=button],
+input[type=submit],
+a.member-apply{
+	padding: 10px 40px;
+	width: auto;
+	background-color: #D7003F;
+	color: #fff;
+	margin: 80px 0px;
+	
+}
+a.member-apply{
+	display: inline-block;
+	margin: 80px 0px 0px 0px;
+}
+.member-card-btn > input[type=submit]{
+	margin: 20px 0px;
+
+}
+
+select{
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	background: url('../images/select-form-arrow.svg') no-repeat;
+	background-position: right center;
+}
+
+.btn-wrap > select{
+	background: url('../images/select-arrow-red.svg') no-repeat;
+	background-position: right center;
+}
+
+.result > select{
+	background: url('../images/select-arrow-blue.svg') no-repeat;
+	background-position: right center;
+}
+
+.end > select,
+.finish > select{
+	background: url('../images/select-arrow-gray.svg') no-repeat;
+	background-position: right center;
+}
+
+
+.register-form.news{
+	width: 100%;
+	display: flex;
+}
+
+input.member-apply-step3{
+	margin-top: 30px;
+}
+
+.line-member > button[type=submit]{
+	margin: 0px;
+	width: 190px;
+	padding: 10px 10px;
+	background-color: #00B900;
+	border: 1px solid #00B900;
+		/* padding: 0 */
+}
+a.red-link{
+	color: #D7003F;
+	text-decoration: underline;
+}

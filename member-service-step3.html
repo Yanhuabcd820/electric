@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>電子商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:url" content="https://web.elifemall.com.tw/">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="images/logo.jpg" />
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.svg">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/flymain2.js"></script>
+</head>
+<body class="body-wrap stop">
+
+	<div class="proclamation">
+
+		<div class="proclamation-wrap">
+			<div class="proclamation-content">
+
+				<div class="proclamation-close"></div>
+				<p>
+					您的訊息已送出，我們會將您的問題轉至相關服務人員，敬請耐心等候
+			</div>
+			
+		</div>
+	</div>
+	<a href="#Top" class="GoTop">
+		<span class="GoToBar GoToBar1"></span>
+		<span class="GoToBar GoToBar2"></span>
+	</a>
+
+	<header id="Top">
+		<nav class="nav">
+			<div class="nav-inner">
+				<div class="logo-bar"></div>
+				<div id="menu" class="">
+					<span class="bar bar1"></span>
+					<span class="bar bar3"></span>
+					<p class="menu-word">MENU</p>
+				</div>
+				
+
+
+
+				<div class="logo" onclick="location.href='index.html';" style="cursor:pointer;" >
+					<img src="images/logo.svg" alt="全國電子logo">
+				</div>
+				<ul class="navigation" id="navigation">
+			
+					<li><a href="store.html">門市資訊</a></li>
+					<li class="secend-nav"><a href="javascript:;">抽獎專區</a>
+						<ul class="navigation-inner lucky">
+							<li><a href="luckydraw.html">全部抽獎活動</a></li>
+							<li><a href="luckydraw2.html">進行中的抽獎</a></li>
+							<li><a href="luckydraw3.html">中獎名單公佈</a></li>
+							<li><a href="luckydraw4.html">已截止的抽獎</a></li><!-- 
+							<li><a href="luckydraw5.html">已結束的抽獎</a></li> -->
+						</ul>
+					</li>
+
+					
+					<li class="secend-nav"><a href="javascript:;" >活動訊息</a>
+						<ul class="navigation-inner">
+							<li><a href="event.html">全部活動</a></li>
+							<li><a href="event-2.html">品牌活動</a></li>
+							<li><a href="event-3.html">銀行活動</a></li>
+							<li><a href="event-4.html">門市活動</a></li>
+							<li><a href="https://web.elifemall.com.tw/event/ac_clean_service/userVerify.php" target="_blank">冷氣清潔服務</a></li>
+							<li><a href="https://web.elifemall.com.tw/event/2020/10/iphone12/index.php" target="_blank">iPhone 12 即刻預約</a></li>
+							<li><a href="https://web.elifemall.com.tw/greenweekend2020FINAL0304/registered.html" target="_blank">環保集點</a></li>
+						</ul>
+					</li>
+					<li><a href="catalog.html">門市型錄</a></li>
+					<li class="secend-nav"><a href="javascript:;" class="select">客戶服務</a>
+						<ul class="navigation-inner">
+							<li><a href="member-content.html">會員申請/卡號查詢</a></li>
+							<li><a href="member-coupon.html">商品禮券/提貨券查詢</a></li>
+							<li><a href="member-maintenance.html">維修查詢/延保申請</a></li>
+							<li><a href="member-service.html">客服中心</a></li>
+							<li><a href="announce.html">公告專區</a></li>
+						</ul>
+					</li>
+
+
+
+					<li><a href="https://www.dcity.com.tw/?utm_source=elifemall&utm_medium=destop" target="_blank">線上購物</a></li>
+					<li class="nav-search">
+						<div class="nav-search-icon" onclick="location.href='search.html';" style="cursor:pointer;" ></div>
+						<input type="text" class="nav-search-input" placeholder="search..." onclick="location.href='search.html';" style="cursor:pointer;" >
+					</li>
+				</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+	<content>
+		<div class="blank"></div><div class="blank2"></div>
+
+
+		<div class="crumbs-wrap">
+			<h3 class="crumbs">客戶服務</h3>
+		</div>
+
+		<div class="content-wrap">
+			<div class="detail-wrap">
+				<div class="register">
+					<h4>客服中心</h4>
+				</div>
+				<form action="#" method="post" enctype="multipart/form-data" name="form1">
+					<div class="register-form-wrap">
+						<div class="register-form">
+							<p>姓名*</p>
+							<input name="CustName" type="text" id="CustName" size="15" maxlength="15" required>
+						</div>
+						<div class="register-form register-form-gender">
+							<p>性別*</p>
+							<input type="radio" name="Sex" id="male" value="1" required>
+							<label for="male">男</label>
+							<input type="radio" name="Sex" id="female" value="0" required>
+							<label for="female">女</label>
+						</div>
+						<div class="register-form">
+							<p>行動電話*</p>
+							<input name="MTel" type="tel" id="MTel" size="12" maxlength="10" onkeypress="javascript:CheckNum(this);" value="" readonly="" required>
+						</div>
+						<div class="register-form register-form-add tel-col3">
+							<p>聯絡電話(公司)</p>
+							<input name="OTel1" type="tel" id="OTel1" size="3" maxlength="3" onkeypress="javascript:CheckNum(this);" placeholder="區碼">
+							<span class="tel-col3-dash">-</span>
+							<input name="OTel2" type="tel" id="OTel2" size="12" maxlength="8" onkeypress="javascript:CheckNum(this);">
+							<span class="tel-col3-vat">分機</span>
+							<input name="Ext" type="tel" id="Ext" size="5" maxlength="6" onkeypress="javascript:CheckNum(this);" placeholder="分機">
+						</div>
+						<div class="register-form register-form-add tel-col2">
+							<p>聯絡電話(家裡)</p>
+							<input name="HTel1" type="tel" id="HTel1" size="3" maxlength="3" onkeypress="javascript:CheckNum(this);" placeholder="區碼">
+							<span class="tel-col2-dash">-</span>
+							<input name="HTel2" type="text" id="HTel2" size="12" maxlength="8" onkeypress="javascript:CheckNum(this);">
+						</div>
+						<div class="register-form register-form-add mail-col2">
+							<p>E-mail</p>
+							<input name="Mail" type="email" id="Mail" size="30" maxlength="70">
+							<label>
+								<input name="SendMail" type="checkbox" id="SendMail" value="Y" checked="">
+								<span>同意接收活動訊息</span>
+							</label>
+						</div>
+						<div class="register-form register-form-add">
+							<div class="service-select">
+								<p>所在區域*</p>
+								<select name="Area" id="Area" required>
+		                            <option value="0" selected="">請選擇</option>
+		                            <option value="09">台北基隆</option>
+		                            <option value="03">桃竹苗</option>
+		                            <option value="04">中彰投雲</option>
+		                            <option value="07">高屏嘉南</option>
+		                            <option value="08">宜花東</option>
+		                        </select>
+								
+							</div>
+							<div class="service-select">
+								<p>問題分類*</p>
+								<select name="CaseType" id="CaseType" onchange="javascript:if(this.value==23){document.form1.Product.value='520';SendQaType('520');}else{document.form1.Product.value='0';document.form1.PMark.value='0';}" required>
+	                    
+	                        		<option value="0" selected="">請選擇</option>
+	                       			<option value="1">商品問題</option>
+	                       			<option value="2">維修/訂料問題</option>
+	                       			<option value="3">行銷問題</option>
+	                       			<option value="4">人員訴願</option>
+	                       			<option value="5">其他建議</option>
+	                       			<option value="6">財會問題</option>
+	                       			<option value="7">冷氣報修</option>
+	                       			<option value="9">大家電報修</option>
+	                       			<option value="11">諮詢服務</option>
+	                       			<option value="12">人才招募中心</option>
+	                       			<option value="28">購物(尾牙)諮詢</option>                       
+	                       		 </select>
+							</div>
+
+						</div>
+						<div class="register-form register-form-add">
+							<div class="service-select">
+								<p>產品分類*</p>
+								<select name="Product" id="Product" onchange="javascript:SendQaType(this.value);" required>
+	                            	<option value="0" selected="">請選擇</option>
+	                                <option value="514">Apple商品</option>
+									<option value="535">DIY/零組件</option>
+									<option value="437">dyson配件</option>
+									<option value="578">iOT</option>
+									<option value="570">UPS</option>
+									<option value="577">USB HUB</option>
+									<option value="439">小V鑄鐵鍋</option>
+									<option value="435">小米/米家商品</option>
+									<option value="304">工具箱</option>
+									<option value="434">小家電週邊及附件</option>
+									<option value="301">手工具</option>
+									<option value="615">文具用品</option>
+									<option value="605">內著織品</option>
+									<option value="574">手寫繪圖板</option>
+									<option value="310">手錶</option>
+									<option value="520">手機/IOT</option>
+									<option value="521">手機配件</option>
+									<option value="598">打卡鐘</option>
+									<option value="438">代步車</option>
+									<option value="512">平板電腦</option>
+									<option value="440">未來實驗室</option>
+									<option value="283">瓦斯爐</option>
+									<option value="563">印表機</option>
+									<option value="576">行動電源</option>
+									<option value="601">休閒食品</option>
+									<option value="307">休閒旅遊</option>
+									<option value="120">冰箱</option>
+									<option value="551">耳機</option>
+									<option value="525">汽車百貨</option>
+									<option value="421">吹風機</option>
+									<option value="210">冷氣</option>
+									<option value="614">快閃期間限定</option>
+									<option value="413">快煮壺</option>
+									<option value="423">吸塵器</option>
+									<option value="590">投影機</option>
+									<option value="591">投影機配件</option>
+									<option value="303">放大/量測工具</option>
+									<option value="408">果汁機</option>
+									<option value="190">附件</option>
+									<option value="290">附件</option>
+									<option value="613">居家收納</option>
+									<option value="280">空氣清淨機</option>
+									<option value="409">咖啡機</option>
+									<option value="522">門號</option>
+									<option value="286">油煙機</option>
+									<option value="595">相(攝影)機配件</option>
+									<option value="604">流行飾品</option>
+									<option value="130">洗衣機</option>
+									<option value="603">美妝材料</option>
+									<option value="602">美妝保養</option>
+									<option value="523">穿載式</option>
+									<option value="414">保溫杯瓶</option>
+									<option value="282">洗碗機</option>
+									<option value="432">計算機</option>
+									<option value="422">美髮組</option>
+									<option value="594">相機</option>
+									<option value="552">音響 / 劇院</option>
+									<option value="608">個人用品</option>
+									<option value="510">桌上型電腦</option>
+									<option value="607">家用工具</option>
+									<option value="609">家用產品</option>
+									<option value="428">家政商品</option>
+									<option value="610">家庭用紙</option>
+									<option value="170">家庭劇院</option>
+									<option value="430">捕蚊燈/拍</option>
+									<option value="417">烘被機</option>
+									<option value="606">家飾寢具</option>
+									<option value="426">烘碗機</option>
+									<option value="404">烤箱</option>
+									<option value="534">記憶卡</option>
+									<option value="532">記憶體</option>
+									<option value="250">除濕機</option>
+									<option value="284">酒櫥</option>
+									<option value="405">烤麵包機</option>
+									<option value="131">脫水機</option>
+									<option value="431">淨水器</option>
+									<option value="132">乾衣機</option>
+									<option value="133">乾衣機架</option>
+									<option value="305">焊接工具</option>
+									<option value="630">健康保養</option>
+									<option value="420">健康商品</option>
+									<option value="542">掃描器</option>
+									<option value="513">液晶螢幕</option>
+									<option value="306">清潔/理線工具</option>
+									<option value="419">剪髮器</option>
+									<option value="425">清潔機</option>
+									<option value="550">喇叭</option>
+									<option value="511">筆記型電腦</option>
+									<option value="111">視訊盒&amp;機上盒</option>
+									<option value="541">視訊攝影機</option>
+									<option value="412">開飲機</option>
+									<option value="530">硬碟</option>
+									<option value="597">無線電對講機</option>
+									<option value="524">虛擬實境</option>
+									<option value="436">瑞士LAURASTAR</option>
+									<option value="134">電子衣櫥</option>
+									<option value="402">電子鍋</option>
+									<option value="433">電池</option>
+									<option value="429">照明商品</option>
+									<option value="416">微波爐</option>
+									<option value="415">電風扇</option>
+									<option value="564">傳真機</option>
+									<option value="302">電動工具</option>
+									<option value="110">電視</option>
+									<option value="561">電視遊戲機</option>
+									<option value="562">電視遊戲機週邊</option>
+									<option value="573">電視播放設備</option>
+									<option value="581">電腦百貨</option>
+									<option value="519">電腦配件</option>
+									<option value="565">電腦耗材</option>
+									<option value="560">電腦軟體</option>
+									<option value="580">電腦線材</option>
+									<option value="240">電暖器</option>
+									<option value="592">電話機</option>
+									<option value="407">電磁爐</option>
+									<option value="401">電鍋</option>
+									<option value="418">電鬍刀</option>
+									<option value="518">電競椅</option>
+									<option value="572">網路分享器</option>
+									<option value="140">碟影機</option>
+									<option value="424">塵璊機</option>
+									<option value="406">製麵包機</option>
+									<option value="427">熨斗</option>
+									<option value="411">熱水瓶</option>
+									<option value="285">熱水器</option>
+									<option value="160">數位機上盒</option>
+									<option value="611">廚房五金</option>
+									<option value="553">影音附件</option>
+									<option value="612">衛浴五金</option>
+									<option value="309">衛浴用品</option>
+									<option value="403">調理鍋</option>
+									<option value="191">影視附件</option>
+									<option value="599">辦公設備</option>
+									<option value="531">隨身碟</option>
+									<option value="410">磨豆機</option>
+									<option value="579">錄音筆/MP3</option>
+									<option value="308">餐廚用具</option>
+									<option value="575">燒錄光碟機</option>
+									<option value="540">鍵盤滑鼠</option>
+									<option value="281">濾水器</option>
+									<option value="596">翻譯機</option>
+									<option value="571">護目鏡</option>
+									<option value="593">攝影機</option>
+									<option value="533">顯示卡</option>
+	                        </select>
+							</div>
+							<div class="service-select">
+								<p>廠牌*</p>
+								<select name="PMark" id="PMark" required>
+		                            <option value="0" selected="">請選擇</option>
+		                            <option value="999999">其他</option>
+		                        </select>
+							</div>
+
+						</div>
+						<div class="register-form register-form-add">
+							<p>維修地址*</p>
+							<select name="Addr1" id="Addr1" onchange="cityredirect(this.options.selectedIndex);" required>
+	                            	<option selected="">城市</option>
+									<option>台北市</option>
+									<option>基隆市</option>
+									<option>新北市</option>
+									<option>桃園市</option>
+									<option>新竹市</option>
+									<option>新竹縣</option>
+									<option>苗栗縣</option>
+									<option>台中市</option>
+									<option>彰化縣</option>
+									<option>南投縣</option>
+									<option>嘉義市</option>
+									<option>嘉義縣</option>
+									<option>雲林縣</option>
+									<option>台南市</option>
+									<option>高雄市</option>
+									<option>屏東縣</option>
+									<option>宜蘭縣</option>
+									<option>花蓮縣</option>
+									<option>台東縣</option>
+									<option>澎湖縣</option>
+									<option>金門縣</option>
+									<option>連江縣</option>      
+	                           </select>
+							<select name="Addr2" id="Addr2">
+	                      		<option value="區域" required>區域</option>
+	                      	</select>
+							<input name="Addr3" type="text" id="Addr3" size="35" maxlength="255" placeholder="請輸入詳細地址" required>
+						</div>
+						<div class="register-form">
+							<p>宅配或維修問題請留單據號碼</p>
+							<input type="tel" name="" id="">
+						</div>
+						<div class="register-form register-form-add">
+							<p>備註說明</p>
+							<textarea name="Content" rows="5" wrap="VIRTUAL" id="Content" placeholder="(如為訴願，請告知門市及人員姓名或特徵。謝謝！)"></textarea>
+						</div>
+
+					</div>
+					
+
+					<div class="submit-wrap">
+						<div class="submit-inner">
+							<input name="Submit2" type="submit" class="filesend" value="送出資料" style="cursor:pointer; outline: 0px;" onclick="javascript:return CheckForm('5614');">
+						</div>
+						
+					</div>
+				</form>
+
+			</div>
+
+
+
+
+		</div>
+
+
+
+	</content>
+
+	<div class="bottom-nav-wrap">
+		<div class="bottom-option-outter bottom-option-outter-A">
+			<div class="bottom-nav bottom-nav-A">
+				<p>關於全國</p>
+				<a href="management.html">經營理念</a>
+				<a href="history.html">歷史沿革</a>
+				<a href="investors.html">投資人關係</a>
+				<a href="news.html">新聞稿</a>
+				<a href="csr.html">CSR</a>
+			</div>
+			<div class="bottom-nav bottom-nav-B">
+				<p>加入全國</p>
+				<a href="https://www.104.com.tw/company/a3xycps" target="_blank">人才招募</a>
+				<a href="supplier.html">供應商夥伴大募集</a>
+				<a href="air-conditioner.html">冷氣安裝協力廠商大募集</a>
+			</div>
+		</div>
+
+
+		<div class="bottom-option-outter bottom-option-outter-B">
+
+			<img src="images/icon-fb.svg" alt="" onclick="window.open('https://www.facebook.com/elifemall.com.tw/');" style="cursor:pointer;">
+			<img src="images/icon-line.svg" alt="" onclick="window.open('https://page.line.me/elifemall');" style="cursor:pointer;">
+			<img src="images/icon-youtube.svg" alt="" onclick="window.open('https://www.youtube.com/channel/UC9X5Ddy6WZLSY65ywEodr-g');" style="cursor:pointer;">
+		</div>
+
+
+
+	</div>
+
+
+
+
+	<footer>
+		<div class="footer-word">
+			<span><b>全國電子股份有限公司</b></span>
+			<span>地址：新北市248五股區五工六路55號</span>
+			<span>TEL：02-2298-9922</span>
+			<span>免費客服專線：0800-021921 </span>
+			<span class="all-line">Copyright © elifemall.com.tw All rights reserved.</span>
+
+			<div class="footer-frame all-line">
+				<a href="Anti-Fraud.html">防詐騙中心</a>
+				<!-- <div class="footer-deco"></div> -->
+			</div>
+			      
+		</div>
+		<div class="footer-deco"></div>
+
+
+
+	</footer>
+
+
+
+<script src="js/normal.js"></script>
+
+	<script>
+		let bodyWrap = document.getElementsByClassName('body-wrap')[0];
+		let proclamationClose = document.getElementsByClassName('proclamation-close')[0];
+		let proclamation = document.getElementsByClassName('proclamation')[0];
+		
+		proclamationClose.addEventListener('click', function(){
+			proclamation.classList.toggle('close');
+			bodyWrap.classList.toggle('stop');
+		});
+	</script>
+
+
+</body>
+</html>

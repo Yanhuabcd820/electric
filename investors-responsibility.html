@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>電子商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:url" content="https://web.elifemall.com.tw/">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="images/logo.jpg" />
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.svg">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/flymain2.js"></script>
+</head>
+<body>
+	<a href="#Top" class="GoTop">
+		<span class="GoToBar GoToBar1"></span>
+		<span class="GoToBar GoToBar2"></span>
+	</a>
+	<header id="Top">
+		<nav class="nav">
+			<div class="nav-inner">
+				<div class="logo-bar"></div>
+				<div id="menu" class="">
+					<span class="bar bar1"></span>
+					<span class="bar bar3"></span>
+					<p class="menu-word">MENU</p>
+				</div>
+				
+
+
+
+				<div class="logo" onclick="location.href='index.html';" style="cursor:pointer;" >
+					<img src="images/logo.svg" alt="全國電子logo">
+				</div>
+				<ul class="navigation" id="navigation">
+			
+					<li><a href="store.html">門市資訊</a></li>
+					<li class="secend-nav"><a href="javascript:;">抽獎專區</a>
+						<ul class="navigation-inner lucky">
+							<li><a href="luckydraw.html">全部抽獎活動</a></li>
+							<li><a href="luckydraw2.html">進行中的抽獎</a></li>
+							<li><a href="luckydraw3.html">中獎名單公佈</a></li>
+							<li><a href="luckydraw4.html">已截止的抽獎</a></li><!-- 
+							<li><a href="luckydraw5.html">已結束的抽獎</a></li> -->
+						</ul>
+					</li>
+
+					<li class="secend-nav"><a href="javascript:;">活動訊息</a>
+						<ul class="navigation-inner">
+							<li class="select"><a href="event.html">全部活動</a></li>
+							<li><a href="event-2.html">銀行活動</a></li>
+							<li><a href="event-3.html">門市活動</a></li>
+							<li><a href="event-4.html">品牌活動</a></li>
+						</ul>
+					</li>
+					<li><a href="catalog.html">門市型錄</a></li>
+					<li class="secend-nav"><a href="javascript:;" class="select">客戶服務</a>
+						<ul class="navigation-inner">
+							<li><a href="member-content.html">會員申請/卡號查詢</a></li>
+							<li><a href="member-coupon.html">商品禮券/提貨券查詢</a></li>
+							<li><a href="member-maintenance.html">維修查詢/延保申請</a></li>
+							<li><a href="member-service.html">客服中心</a></li>
+							<li><a href="announce.html">公告專區</a></li>
+						</ul>
+					</li>
+
+
+
+					<li><a href="https://www.dcity.com.tw/?utm_source=elifemall&utm_medium=destop" target="_blank">線上購物</a></li>
+					<li class="nav-search">
+						<div class="nav-search-icon" onclick="location.href='search.html';" style="cursor:pointer;" ></div>
+						<input type="text" class="nav-search-input" placeholder="search..." onclick="location.href='search.html';" style="cursor:pointer;" >
+					</li>
+				</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+	<content>
+		<div class="blank"></div><div class="blank2"></div>
+
+
+		<div class="crumbs-wrap">
+			<h3 class="crumbs">關於全國 - 投資人關係</h3>
+		</div>
+
+		<div class="content-wrap">
+			<div class="btn-wrap draw-btn investors">
+				<button type="button" onclick="location.href='investors.html';" style="cursor:pointer;">公司概況</button>
+				<button type="button" onclick="location.href='investors-financial.html';" style="cursor:pointer;">財務業務資訊</button>
+				<button type="button" onclick="location.href='investors-shareholder-info.html';" style="cursor:pointer;">股東會資訊</button>
+				<button type="button" onclick="location.href='investors-shareholder-service.html';" style="cursor:pointer;">股東服務</button>
+				<button type="button" onclick="location.href='investors-manage.html';" style="cursor:pointer;">公司治理</button>
+				<button type="button" class="select" onclick="location.href='investors-responsibility.html';" style="cursor:pointer;">社會責任暨利害關係人</button>
+
+			</div>
+
+
+			<div class="btn-wrap draw-select investors">
+				<select onchange="top.location=this.value;">
+					<option value="investors.html">公司概況</option>
+					<option value="investors-financial.html">財務業務資訊</option>
+					<option value="investors-shareholder-info.html">股東會資訊</option>
+					<option value="investors-shareholder-service.html">股東服務</option>
+					<option value="investors-manage.html">公司治理</option>
+					<option value="investors-responsibility.html" selected>社會責任暨利害關係人</option>
+				</select>
+			</div>
+
+			<div class="detail-wrap">
+				
+				<h3 class="crumbs catalog inner">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">勞資關係</span>
+					</div>
+				</h3>	
+				<div class="detail-wrap">
+			
+					<div class="manage-content">
+						<div class="investor-wrap manage">					
+							<p><b>員工福利措施</b>
+								本公司同仁除一般勞保、健保、團體保險外，並享有三節禮金(端午節、中秋節、年終)、生日禮金、婚喪喜慶補助、員工旅遊代金及員工購物優惠等福利措施。<br>
+							</p>				
+							<p><b>員工進修及訓練情形</b>
+								1. 本公司定期安排員工教育訓練，以提高員工專業素質。訓練項目包括新人訓練班、顧客工程師訓練、從心行銷訓練、春節激勵營、安裝工程師訓練及其他不定期訓練。<br><br>
+
+								2. 108年度訓練情形統計表<br>
+								<div class="manage-table train">
+									<div class="col-wrap">
+										<div class="col col-1 train word-red">訓練類別</div>
+										<div class="col col-2 train word-red">總梯次</div>
+										<div class="col col-3 train word-red">總人次</div>
+										<div class="col col-4 train word-red">總人時</div>
+									</div>
+									<div class="col-wrap">
+										<div class="col col-1 train">新進課程</div>
+										<div class="col col-2 train">6</div>
+										<div class="col col-3 train">197</div>
+										<div class="col col-4 train">6,112</div>
+									</div>
+									<div class="col-wrap">
+										<div class="col col-1 train">專業課程</div>
+										<div class="col col-2 train">36</div>
+										<div class="col col-3 train">2,656</div>
+										<div class="col col-4 train">228,210</div>
+									</div>
+									<div class="col-wrap">
+										<div class="col col-1 train">管理課程</div>
+										<div class="col col-2 train">1</div>
+										<div class="col col-3 train">181</div>
+										<div class="col col-4 train">3,801</div>
+									</div>
+									<div class="col-wrap">
+										<div class="col col-1 train">數位課程</div>
+										<div class="col col-2 train">34</div>
+										<div class="col col-3 train">14,380</div>
+										<div class="col col-4 train">8,980</div>
+									</div>
+									
+
+								</div>
+							</p>
+							<p>
+								<b>退休制度與其實施情形</b>
+								本公司有關職工退休金制度係採確定提撥方式，適用勞基法之前按每年實發職工本薪總額之2％限額內提撥退休金。惟自八十八年一月一日起納入勞基法後，有關員工之退休制度如下： <br><br>
+
+								1. 自請退休<br>
+								a. 於本公司連續服務十五年以上，年滿五十五歲者。<br>
+								b. 於本公司連續服務二十五年以上者。<br>
+								c. 於本公司連續服務十年以上年滿六十歲者。<br>
+								d. 於本公司連續服務滿十五年以上且年齡滿五十歲以上者，得申請提早退休，惟本公司在業務上若有需求考量時，可不予核准。<br><br>
+
+								2. 強制退休<br>
+								a. 年滿六十五歲者。<br>
+								b. 心神喪失或身體殘廢不堪勝任工作者。<br>
+								c. 擔任危險、需體力性等特殊工作，經報主管機關調整退休年齡者。<br><br>
+
+								另本公司已依勞基法第56條第二項規定，預估應給付次一年度內預估成就退休條件勞工之退休金數額，並於次年度三月底前一次提撥其差額至勞工退休準備金專戶。同時每三個月定期召開退休準備金監督委員會議，由勞資雙方共同監督審議退休金之運作。
+							</p>
+							<p>
+								<b>勞資間之協議與各項員工權益維護措施情形</b>
+								本公司設有職工福利委員會，定期召開會議對員工福利措施和資方深入討論，以增進勞資和諧氣氛。
+							</p>
+							<p>
+								<b>員工保護措施</b>
+								1. 本公司為零售服務連鎖企業，店面均設於一、二樓，工作環境投保火險、公共意外險及僱主意外責任險，並依法每年檢修消防安全設備兩次，檢查結果申報至主管機關。倉儲及門市人員定期參加「防火管理訓練班」，以維護公司、員工及消費者安全。<br>
+								2. 為維護員工安全，辦公室採用門禁系統管制，各類人員到訪需登記換證。<br>
+								3. 公司除訂定勞工安全衛生工作守則之外，對於員工每年提供基本健康檢查、防癌健康檢查，來照顧員工的健康。
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<h3 class="crumbs catalog inner">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">利害關係人溝通管道</span>
+					</div>
+				</h3>	
+				<div class="detail-wrap">		
+					<div class="manage-content">
+						<div class="investor-wrap manage">					
+						
+							<div class="manage-table communication">
+								<div class="col-wrap communication">
+									<div class="col col-1 communication word-red">利害關係人</div>
+									<div class="col col-2 communication word-red">關注議題</div>
+									<div class="col col-3 communication word-red">溝通管道、方式及頻率</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication">股東及投資人</div>
+									<div class="col col-2 communication">
+										1. 營運績效<br>
+										2. 資訊透明<br>
+										3. 公司治理
+									</div>
+									<div class="col col-3 communication">
+										各項營運資訊、公告及年報之編製與提供。<br>
+										每年1-2次法說會及股東會之召開，經常性與投資人、法人機構關係之溝通維護。<br>
+										財會單位：陳碧滋協理<br>
+										(mail：jill.chen@elifemall.com.tw)
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication">客戶及供應商</div>
+									<div class="col col-2 communication">
+										1. 客戶溝通<br>
+										2. 服務品質<br>
+										3. 供應商管理
+									</div>
+									<div class="col col-3 communication">
+										提供各戶多元溝通管道，並設客服專線，由專人處理相關申訴或爭議案件，以保障消費者權益。<br>
+										不定期與供應商雙向溝通並落實評鑑管理。<br>
+										法務單位：吳鴻淵資深經理<br>
+										(mail：stanleyaqua@elifemall.com.tw)
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication">
+									員工關係</div>
+									<div class="col col-2 communication">
+										1. 員工紅利<br>
+										2. 考核績效<br>
+										3. 勞資關係
+									</div>
+									<div class="col col-3 communication">
+										不定期公告各項員工福利事項、福委會資訊。<br>
+										舉辦教育訓練課程並進行績效管理作業。<br>
+										不定期舉行勞資會議，與工會及員工保持良好互動關係。<br>
+										人資單位：陳毓朗副理<br>
+										(mail：rogerchen@elifemall.com.tw)
+									</div>
+								</div>
+							</div>
+
+
+							<div class="manage-table communication2">
+								<div class="col-wrap communication2">
+									<div class="col col-1 communication2 word-red">
+										利害關係人
+									</div>
+									<div class="col col-2 communication2">
+										股東及投資人
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										關注議題
+									</div>
+									<div class="col col-2 communication2">
+										1. 營運績效<br>
+										2. 資訊透明<br>
+										3. 公司治理
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										溝通管道、<br>方式及頻率
+									</div>
+									<div class="col col-2 communication2">
+										各項營運資訊、公告及年報之編製與提供。<br>
+										每年1-2次法說會及股東會之召開，經常性與投資人、法人機構關係之溝通維護。<br>
+										財會單位：陳碧滋協理<br>
+										(mail：jill.chen@elifemall.com.tw)
+									</div>
+								</div>
+								<div class="col-wrap communication2">
+									<div class="col col-1 communication2 word-red">
+										利害關係人
+									</div>
+									<div class="col col-2 communication2">
+										客戶及供應商
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										關注議題
+									</div>
+									<div class="col col-2 communication2">
+										1. 客戶溝通<br>
+										2. 服務品質<br>
+										3. 供應商管理
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										溝通管道、<br>方式及頻率
+									</div>
+									<div class="col col-2 communication2">
+										提供各戶多元溝通管道，並設客服專線，由專人處理相關申訴或爭議案件，以保障消費者權益。<br>
+										不定期與供應商雙向溝通並落實評鑑管理。<br>
+										法務單位：吳鴻淵資深經理<br>
+										(mail：stanleyaqua@elifemall.com.tw)
+									</div>
+								</div>
+								<div class="col-wrap communication2">
+									<div class="col col-1 communication2 word-red">
+										利害關係人
+									</div>
+									<div class="col col-2 communication2">
+										員工關係
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										關注議題
+									</div>
+									<div class="col col-2 communication2">
+										1. 員工紅利<br>
+										2. 考核績效<br>
+										3. 勞資關係
+									</div>
+								</div>
+								<div class="col-wrap">
+									<div class="col col-1 communication2 word-red">
+										溝通管道、<br>方式及頻率
+									</div>
+									<div class="col col-2 communication2">
+										不定期公告各項員工福利事項、福委會資訊。<br>
+										舉辦教育訓練課程並進行績效管理作業。<br>
+										不定期舉行勞資會議，與工會及員工保持良好互動關係。<br>
+										人資單位：陳毓朗副理<br>
+										(mail：rogerchen@elifemall.com.tw)
+									</div>
+								</div>
+							</div>
+
+
+							<p>
+								取之於社會，回饋於社會，全國電子相信只有在兼顧利害關係人的均衡利益下才是健全的公司治理，透過與利害關係人的溝通，回應利害關係人所關切的議題，持續檢視及改善並採取相對應必要措施，才能為社會、客戶、供應商、員工及股東等各方帶來更大的利益。 <br><br>
+
+								本公司秉持誠信從事所有業務活動，任何內部人或外部人若發現本公司任何營運或員工有違反道德誠信或從事不法之可疑行為，申訴或舉報方式如下：<br>
+								法務單位：吳鴻淵 資深經理<br>
+								電話：(02)2298-9922 分機 2932<br>
+								電子郵件信箱：stanleyaqua@elifemall.com.tw
+
+
+							</p>
+							<p class="word-small-12 res">
+								註：請申訴或舉報者提供真實姓名、聯絡資料及可供調查之具體事證，本公司方得受理。同時，除法律另有規定外，本公司保證申訴或舉報者的個人及所提供的資訊，將依個資法受到絕對的保密，並承諾保護檢舉人不因檢舉情事而遭不當處置，並由專責單位依下列程序處理：<br><br>
+
+								1. 檢舉情事涉及一般員工者應呈報至部門主管，檢舉情事涉及董事或高階主管，應呈報至獨立董事或監察人。<br>
+								2. 本公司專責單位及前款受呈報之主管或人員應即刻查明相關事實，必要時由法規遵循或其他相關部門提供協助。<br>
+								3. 如經證實被檢舉人確有違反相關法令或本公司誠信經營政策與規定者，應立即要求被檢舉人停止相關行為，並為適當之處置，且必要時透過法律程序請求損害賠償，以維護公司之名譽及權益。
+								4. 檢舉受理、調查過程、調查結果均應留存書面文件，並保存五年，其保存得以電子方式為之。保存期限未屆滿前，發生與檢舉內容相關之訴訟時，相關資料應續予保存至訴訟終結止。<br>
+								5. 對於檢舉情事經查證屬實，應責成本公司相關單位檢討相關內部控制制度及作業程序，並提出改善措施，以杜絕相同行為再次發生。<br>
+								6. 本公司專責單位應將檢舉情事、其處理方式及後續檢討改善措施，向董事會報告。
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+<!-- 
+			<script>
+			    $(function() {
+			        $(".manage-content").hide();
+			        $(".manage-btn-wrap").click(function() {
+			        $(this)
+			            .parent()
+			            .find(".manage-content")
+			            .slideToggle();
+			        });
+			    });
+			</script> -->
+
+			<!-- 
+			<script>
+				let manageBtnWrap = document.getElementsByClassName('manage-btn-wrap');
+				let manageContent = document.getElementsByClassName('manage-content');
+				let manageBtn = document.getElementsByClassName('manage-btn');
+
+
+
+				for(let s = 0; s < manageBtnWrap.length; s++){
+					manageContent[s].style.display = 'none';
+					manageContent[s].style.opacity = '0';
+
+					manageBtnWrap[s].addEventListener('click', gotoOpen);
+
+
+
+					function gotoOpen(){
+						if(manageContent[s].style.opacity == '0'){
+
+						// alert('HHH');
+							manageContent[s].style.display = 'block';
+							setTimeout(
+								function(){
+									manageContent[s].style.opacity = '1';
+									manageBtn[s].classList.toggle('open');
+
+								},50
+							);
+
+						}else{
+
+							manageContent[s].style.opacity = '0';
+							setTimeout(
+								function(){
+									manageContent[s].style.display = 'none';
+									manageBtn[s].classList.toggle('open');
+
+								},100
+							);
+						}
+						
+					}
+
+
+				}
+			</script> -->
+
+
+<!-- 
+
+				            $('<style>.manage-btn:after{opacity:0;}</style>').toggle().appendTo('head');
+			        }); -->
+		</div>
+
+
+
+	</content>
+
+	<div class="bottom-nav-wrap">
+		<div class="bottom-option-outter bottom-option-outter-A">
+			<div class="bottom-nav bottom-nav-A">
+				<p>關於全國</p>
+				<a href="management.html">經營理念</a>
+				<a href="history.html">歷史沿革</a>
+				<a href="investors.html">投資人關係</a>
+				<a href="news.html">新聞稿</a>
+				<a href="csr.html">CSR</a>
+			</div>
+			<div class="bottom-nav bottom-nav-B">
+				<p>加入全國</p>
+				<a href="https://www.104.com.tw/company/a3xycps" target="_blank">人才招募</a>
+				<a href="supplier.html">供應商夥伴大募集</a>
+				<a href="air-conditioner.html">冷氣安裝協力廠商大募集</a>
+			</div>
+		</div>
+
+		<div class="bottom-option-outter bottom-option-outter-B">
+<!-- 			
+			<div class="newsletter-frame">
+				<p class="newsletter">我想訂閱電子型錄</p>
+				<input type="mail" placeholder="請輸入email" class="newsletter-input">
+				<div class="newsletter-btn">
+					<a href="#">訂閱</a> |
+					<a href="#">退訂</a>
+				</div>
+			</div> -->
+			<img src="images/icon-fb.svg" alt="" onclick="window.open('https://www.facebook.com/elifemall.com.tw/');" style="cursor:pointer;">
+			<img src="images/icon-line.svg" alt="" onclick="window.open('https://page.line.me/elifemall');" style="cursor:pointer;">
+			<img src="images/icon-youtube.svg" alt="" onclick="window.open('https://www.youtube.com/channel/UC9X5Ddy6WZLSY65ywEodr-g');" style="cursor:pointer;">
+		</div>
+
+
+
+	</div>
+
+
+
+
+	<footer>
+		<div class="footer-word">
+			<span><b>全國電子股份有限公司</b></span>
+			<span>地址：新北市248五股區五工六路55號</span>
+			<span>TEL：02-2298-9922</span>
+			<span>免費客服專線：0800-021921 </span>
+			<span class="all-line">Copyright © elifemall.com.tw All rights reserved.</span>
+
+			<div class="footer-frame all-line">
+				<a href="Anti-Fraud.html">防詐騙中心</a>
+				<!-- <div class="footer-deco"></div> -->
+			</div>
+			      
+		</div>
+		<div class="footer-deco"></div>
+
+
+
+	</footer>
+
+
+
+<script src="js/normal.js"></script>
+
+
+</body>
+</html>

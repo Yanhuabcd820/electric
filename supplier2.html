@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>電子商城</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta property="og:url" content="https://web.elifemall.com.tw/">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="images/logo.jpg" />
+
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' href='css/datepicker.css'>
+	<link rel="stylesheet" href="css/style-datepicker.css">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/favicon.svg">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/flymain2.js"></script>
+</head>
+<body>
+	<a href="#Top" class="GoTop">
+		<span class="GoToBar GoToBar1"></span>
+		<span class="GoToBar GoToBar2"></span>
+	</a>
+
+	<header id="Top">
+		<nav class="nav">
+			<div class="nav-inner">
+				<div class="logo-bar"></div>
+				<div id="menu" class="">
+					<span class="bar bar1"></span>
+					<span class="bar bar3"></span>
+					<p class="menu-word">MENU</p>
+				</div>
+				
+
+
+
+
+				<div class="logo" onclick="location.href='index.html';" style="cursor:pointer;" >
+					<img src="images/logo.svg" alt="全國電子logo">
+				</div>
+				<ul class="navigation" id="navigation">
+			
+					<li><a href="store.html">門市資訊</a></li>
+					<li class="secend-nav"><a href="javascript:;">抽獎專區</a>
+						<ul class="navigation-inner lucky">
+							<li><a href="luckydraw.html">全部抽獎活動</a></li>
+							<li><a href="luckydraw2.html">進行中的抽獎</a></li>
+							<li><a href="luckydraw3.html">中獎名單公佈</a></li>
+							<li><a href="luckydraw4.html">已截止的抽獎</a></li><!-- 
+							<li><a href="luckydraw5.html">已結束的抽獎</a></li> -->
+						</ul>
+					</li>
+
+					
+					<li class="secend-nav"><a href="javascript:;">活動訊息</a>
+						<ul class="navigation-inner">
+							<li class="select"><a href="event.html">全部活動</a></li>
+							<li><a href="event-2.html">銀行活動</a></li>
+							<li><a href="event-3.html">門市活動</a></li>
+							<li><a href="event-4.html">品牌活動</a></li>
+						</ul>
+					</li>
+					<li><a href="catalog.html">門市型錄</a></li>
+					<li class="secend-nav"><a href="javascript:;" class="select">客戶服務</a>
+						<ul class="navigation-inner">
+							<li><a href="member-content.html">會員申請/卡號查詢</a></li>
+							<li><a href="member-coupon.html">商品禮券/提貨券查詢</a></li>
+							<li><a href="member-maintenance.html">維修查詢/延保申請</a></li>
+							<li><a href="member-service.html">客服中心</a></li>
+							<li><a href="announce.html">公告專區</a></li>
+						</ul>
+					</li>
+
+
+
+					<li><a href="https://www.dcity.com.tw/?utm_source=elifemall&utm_medium=destop" target="_blank">線上購物</a></li>
+					<li class="nav-search">
+						<div class="nav-search-icon" onclick="location.href='search.html';" style="cursor:pointer;" ></div>
+						<input type="text" class="nav-search-input" placeholder="search..." onclick="location.href='search.html';" style="cursor:pointer;" >
+					</li>
+				</ul>
+				
+			</div>
+			
+		</nav>
+	</header>
+	<content>
+		<div class="blank"></div>
+
+
+		<div class="crumbs-wrap">
+			<h3 class="crumbs">加入全國 - 供應商夥伴大募集</h3>
+		</div>
+
+		<div class="content-wrap">
+
+
+			<div class="banner-wrap">
+				<img src="images/supplier.jpg" alt="">
+			</div>
+			<div class="detail-wrap">
+
+
+
+				<p>
+					不論您是製造商，進口商/代理商、貿易商或經銷商，我們皆竭誠歡迎您留下您的基本資料，我們將會盡速與您聯絡！全國電子股份有限公司銷售商品主要包括大家電、小家電、通訊、數位相機、資訊及影音等商品，秉持著顧客核心，以解決顧客的困擾或增加其幸福感的原則，為提供消費者更多，最新及多樣性的選擇。
+				</p>
+
+			</div>
+
+			<div class="detail-wrap">
+
+				<div class="register-attetion"></div>
+				<div class="register">
+					<h4>請填寫基本資料</h4>
+				</div>
+				
+
+
+				<h3 class="crumbs catalog">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">公司資料</span>
+					</div>
+				</h3>	
+
+				
+
+				<div class="register-form-wrap">
+					<div class="register-form supplier">
+						<p>公司名稱*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form supplier">
+						<p>統一編號*</p>
+						<input type="tel" name="" id="" required>
+					</div>
+					<div class="register-form register-form-add">
+						<p>總公司地址*</p>
+						<select name="city" id="city" required>
+							<option value="台北市">台北市</option>
+							<option value="桃園市">桃園市</option>
+						</select>
+						<select name="zone" id="zone" required>
+							<option value="大安區">大安區</option>
+							<option value="中正區">中正區</option>
+						</select>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>資本額(單位：千元)*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>員工人數*</p>
+						<input type="tel" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>公司成立日期*</p>
+						<div id="datepicker3" class="input-group date"  data-date-format="yyyy-mm-dd">
+						    <input class="form-control" type="text" readonly />
+						    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+						</div>	
+					</div>
+
+
+					<div class="register-form">
+						<p>公司負責人*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>聯絡人*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>聯絡單位名稱*</p>
+						<input type="text" name="" id="" required>
+					</div>
+
+					<div class="register-form">
+						<p>聯絡電話*</p>
+						<input type="tel" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>傳真</p>
+						<input type="tel" name="" id="">
+					</div>
+					<div class="register-form">
+						<p>E-mail*</p>
+						<input type="email" name="" id="" required>
+					</div>
+					<div class="register-form">
+						<p>網址*</p>
+						<input type="url" name="" id="" required>
+					</div>
+				</div>
+				
+				<div class="blank"></div>
+
+				<h3 class="crumbs catalog">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">公司簡介</span>
+					</div>
+				</h3>	
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide supplier">
+						<p>業務型態*</p>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business1" value="business1" required>
+							<label for="business1">進口代理商</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business2" value="business2" required>
+							<label for="business2">貿易商</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business3" value="business3" required>
+							<label for="business3">批發商</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business4" value="business4" required>
+							<label for="business4">經銷商</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business5" value="business5" required>
+							<label for="business5">製造商</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="businessType" id="business6" value="business6" required>
+							<label for="business6">其它</label>
+						</span>
+
+					</div>
+
+					<div class="register-form wide">
+						<p>公司營業項目簡述*</p>
+						<input type="text" name="" id="" required>
+					</div>
+
+					<div class="register-form wide">
+						<p>目前往來零售通路*</p>
+						<input type="text" name="" id="" required>
+					</div>
+
+					<div class="register-form wide">
+						<p>公司年度總銷售額(單位：千元)*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form wide">
+						<p>備註</p>
+						<textarea></textarea>
+					</div>
+
+
+
+				</div>
+				
+				<div class="blank"></div>
+
+				<h3 class="crumbs catalog">
+					<div class="crumbs-inner">
+						<span class="crumbs-catalog">產品</span>
+					</div>
+				</h3>	
+
+				
+				<div class="register-form-wrap supplier">
+
+					<div class="register-form register-form-business wide supplier">
+						<p>大家電類(1)</p>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-1" value="electronic-huge-type1-1" required>
+							<label for="electronic-huge-type1-1">洗衣機</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-2" value="electronic-huge-type1-2" required>
+							<label for="electronic-huge-type1-2">DVD</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-3" value="electronic-huge-type1-3" required>
+							<label for="electronic-huge-type1-3">乾衣機</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-4" value="electronic-huge-type1-4" required>
+							<label for="electronic-huge-type1-4">數位機上盒</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-5" value="electronic-huge-type1-5" required>
+							<label for="electronic-huge-type1-5">電視</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-6" value="electronic-huge-type1-6" required>
+							<label for="electronic-huge-type1-6">電視附件</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-7" value="electronic-huge-type1-7" required>
+							<label for="electronic-huge-type1-7">冰箱</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type1" id="electronic-huge-type1-8" value="electronic-huge-type1-8" required>
+							<label for="electronic-huge-type1-8">其它</label>
+							
+						</span>
+					</div>
+
+
+
+				</div>
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>大家電類(2)</p>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-1" value="electronic-huge-type2-1" required>
+							<label for="electronic-huge-type2-1">冷氣機</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-2" value="electronic-huge-type2-2" required>
+							<label for="electronic-huge-type2-2">微波爐</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-3" value="electronic-huge-type2-3" required>
+							<label for="electronic-huge-type2-3">除濕機</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-4" value="electronic-huge-type2-4" required>
+							<label for="electronic-huge-type2-4">空氣清淨機</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-5" value="electronic-huge-type2-5" required>
+							<label for="electronic-huge-type2-5">淨水器</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-6" value="electronic-huge-type2-6" required>
+							<label for="electronic-huge-type2-6">重電附件</label>
+							
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-huge-type2" id="electronic-huge-type2-7" value="electronic-huge-type2-7" required>
+							<label for="electronic-huge-type2-7">其它</label>
+							
+						</span>
+					</div>
+
+				</div>
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>通訊</p>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-1" value="communication-1" required>
+							<label for="communication-1">電話機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-2" value="communication-2" required>
+							<label for="communication-2">傳真機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-3" value="communication-3" required>
+							<label for="communication-3">打卡鐘</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-4" value="communication-4" required>
+							<label for="communication-4">護貝機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-5" value="communication-5" required>
+							<label for="communication-5">碎紙機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-6" value="communication-6" required>
+							<label for="communication-6">對講機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-7" value="communication-7" required>
+							<label for="communication-7">翻譯機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-8" value="communication-8" required>
+							<label for="communication-8">手機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-9" value="communication-9" required>
+							<label for="communication-9">金融機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-10" value="communication-10" required>
+							<label for="communication-10">計算機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="communication" id="communication-11" value="communication-11" required>
+							<label for="communication-11">其它</label>
+						</span>
+					
+					</div>
+
+				</div>
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>小家電</p>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-1" value="electronic-small-1" required>
+							<label for="electronic-small-1">電鍋/電子鍋</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-2" value="electronic-small-2" required>
+							<label for="electronic-small-2">熱水瓶</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-3" value="electronic-small-3" required>
+							<label for="electronic-small-3">烘碗機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-4" value="electronic-small-4" required>
+							<label for="electronic-small-4">開飲機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-5" value="electronic-small-5" required>
+							<label for="electronic-small-5">果汁機/咖啡壺</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-6" value="electronic-small-6" required>
+							<label for="electronic-small-6">烤麵包機/烤箱/熨斗</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-7" value="electronic-small-7" required>
+							<label for="electronic-small-7">刮刀</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-8" value="electronic-small-8" required>
+							<label for="electronic-small-8">電暖器</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-9" value="electronic-small-9" required>
+							<label for="electronic-small-9">電風扇</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-10" value="electronic-small-10" required>
+							<label for="electronic-small-10">檯燈/照明</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-11" value="electronic-small-11" required>
+							<label for="electronic-small-11">吸塵器</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-12" value="electronic-small-12" required>
+							<label for="electronic-small-12">電磁爐</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-13" value="electronic-small-13" required>
+							<label for="electronic-small-13">美容系列</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-14" value="electronic-small-14" required>
+							<label for="electronic-small-14">健康商品</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-15" value="electronic-small-15" required>
+							<label for="electronic-small-15">電玩/捕蚊燈</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="electronic-small" id="electronic-small-16" value="electronic-small-16" required>
+							<label for="electronic-small-16">其它</label>
+						</span>
+					
+					</div>
+
+				</div>
+
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>數位相機</p>
+						<span class="">
+							<input type="checkbox" name="camera" id="camera-1" value="camera-1" required>
+							<label for="camera-1">相機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="camera" id="camera-2" value="camera-2" required>
+							<label for="camera-2">相機附件</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="camera" id="camera-3" value="camera-3" required>
+							<label for="camera-3">攝錄放影機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="camera" id="camera-4" value="camera-4" required>
+							<label for="camera-4">其它</label>
+						</span>
+					
+					</div>
+
+				</div>
+
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>影音</p>
+						<span class="">
+							<input type="checkbox" name="video" id="video-1" value="video-1" required>
+							<label for="video-1">耳機/喇叭</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-2" value="video-2" required>
+							<label for="video-2">數位MP3</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-3" value="video-3" required>
+							<label for="video-3">CD隨身聽</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-4" value="video-4" required>
+							<label for="video-4">點歌機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-5" value="video-5" required>
+							<label for="video-5">手提CD</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-6" value="video-6" required>
+							<label for="video-6">劇院/附件</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="video" id="video-7" value="video-7" required>
+							<label for="video-7">音響</label>
+						</span>
+					</div>
+
+				</div>
+
+
+				<div class="register-form-wrap">
+
+					<div class="register-form register-form-business wide">
+						<p>3C/資訊</p>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-1" value="3C-1" required>
+							<label for="3C-1">輸入裝置</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-2" value="3C-2" required>
+							<label for="3C-2">電腦週邊</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-3" value="3C-3" required>
+							<label for="3C-3">電腦軟體</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-4" value="3C-4" required>
+							<label for="3C-4">電腦百貨</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-5" value="3C-5" required>
+							<label for="3C-5">隨身碟</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-6" value="3C-6" required>
+							<label for="3C-6">印表機</label>
+						</span>
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-7" value="3C-7" required>
+							<label for="3C-7">GPS</label>
+						</span>
+
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-8" value="3C-8" required>
+							<label for="3C-8">電腦</label>
+						</span>
+
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-9" value="3C-9" required>
+							<label for="3C-9">液晶營幕</label>
+						</span>
+
+						<span class="">
+							<input type="checkbox" name="3C" id="3C-10" value="3C-10" required>
+							<label for="3C-10">PDA</label>
+						</span>
+					</div>
+
+					<div class="register-form wide">
+						<p>品牌*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form wide">
+						<p>商品來源*</p>
+						<input type="text" name="" id="" required>
+					</div>
+					<div class="register-form wide">
+						<p>特別說明</p>
+						<textarea></textarea>
+					</div>
+
+				</div>
+
+
+
+				<div class="submit-wrap">
+					<div class="submit-inner">
+						<button type="submit" class="select" onclick="location.href='#';" style="cursor:pointer;" >送出資料</button>
+						
+					</div>
+					
+				</div>
+				<p>
+					我們會有專責人員將您的資料匯整轉交各相關採購人員，他們將視您產品特性，評估其可行性並與您進一步聯繫；若您未收到任何回覆，歡迎您洽詢各相關採購人員。
+				</p>
+				<div class="supplier-wrap">
+					<div class="supplier-contact">
+					 	<div class="type">冰箱、洗衣機</div>
+					 	<div class="name">張經理</div>
+					 	<div class="content">02-2298-9922#2309</div>
+					 	<div class="content">bettyc@elifemall.com.tw</div>
+					</div>	
+
+					<div class="supplier-contact">
+					 	<div class="type">冷氣、除濕機、清淨機</div>
+					 	<div class="name">留主任</div>
+					 	<div class="content">02-2298-9922#2314</div>
+					 	<div class="content">jeffrey58@elifemall.com.tw</div>
+					</div>	
+
+					<div class="supplier-contact">
+					 	<div class="type">小家電類、電視</div>
+					 	<div class="name">沈經理</div>
+					 	<div class="content">02-2298-9922#2338</div>
+					 	<div class="content">terrisa_shen@elifemall.com.tw</div>
+					</div>	
+
+					<div class="supplier-contact">
+					 	<div class="type">3C/資訊類、影音、通訊、數位相機</div>
+					 	<div class="name">林憶雯</div>  
+					 	<div class="content">02-2298-9922#2305</div>
+					 	<div class="content">jayla@elifemall.com.tw</div>
+					</div>	
+
+					
+
+
+				</div>
+
+
+
+			</div>
+
+		</div>
+
+
+	</content>
+
+	<div class="bottom-nav-wrap">
+		<div class="bottom-option-outter bottom-option-outter-A">
+			<div class="bottom-nav bottom-nav-A">
+				<p>關於全國</p>
+				<a href="management.html">經營理念</a>
+				<a href="history.html">歷史沿革</a>
+				<a href="investors.html">投資人關係</a>
+				<a href="news.html">新聞稿</a>
+				<a href="csr.html">CSR</a>
+			</div>
+			<div class="bottom-nav bottom-nav-B">
+				<p>加入全國</p>
+				<a href="https://www.104.com.tw/company/a3xycps" target="_blank">人才招募</a>
+				<a href="supplier.html">供應商夥伴大募集</a>
+				<a href="air-conditioner.html">冷氣安裝協力廠商大募集</a>
+			</div>
+		</div>
+
+		<div class="bottom-option-outter bottom-option-outter-B">
+<!-- 			
+			<div class="newsletter-frame">
+				<p class="newsletter">我想訂閱電子型錄</p>
+				<input type="mail" placeholder="請輸入email" class="newsletter-input">
+				<div class="newsletter-btn">
+					<a href="#">訂閱</a> |
+					<a href="#">退訂</a>
+				</div>
+			</div> -->
+			<img src="images/icon-fb.svg" alt="" onclick="window.open('https://www.facebook.com/elifemall.com.tw/');" style="cursor:pointer;">
+			<img src="images/icon-line.svg" alt="" onclick="window.open('https://page.line.me/elifemall');" style="cursor:pointer;">
+			<img src="images/icon-youtube.svg" alt="" onclick="window.open('https://www.youtube.com/channel/UC9X5Ddy6WZLSY65ywEodr-g');" style="cursor:pointer;">
+		</div>
+
+
+
+	</div>
+
+
+
+	<footer>
+		<div class="footer-word">
+			<span><b>全國電子股份有限公司</b></span>
+			<span>地址：新北市248五股區五工六路55號</span>
+			<span>TEL：02-2298-9922</span>
+			<span>免費客服專線：0800-021921 </span>
+			<span class="all-line">Copyright © elifemall.com.tw All rights reserved.</span>
+
+			<div class="footer-frame all-line">
+				<a href="Anti-Fraud.html">防詐騙中心</a>
+				<!-- <div class="footer-deco"></div> -->
+			</div>
+			      
+		</div>
+		<div class="footer-deco"></div>
+
+
+
+	</footer>
+
+
+<script src="js/normal.js"></script>
+<script src='js/bootstrap-datepicker.js'></script>
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>
